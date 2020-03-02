@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/jpete/CommonConfiguration.git
+          repos:
+            fco:
+              pattern: fco-*
+              cloneOnStart: true
+              uri: https://github.com/jpete/FirstCallOnlineConfiguration.git
+              username: petersen.testing@outlook.com
+              password: <<CHANGE>>
+              searchPaths: oauth, shopreferral, demo
+            ost:
+              pattern: ost-*
+              cloneOnStart: true
+              uri: https://github.com/jpete/OnlineStoreConfiguration.git
+              username: petersen.testing@outlook.com
+              password: <<CHANGE>>
+              searchPaths: oauth
+logging:
+  level:
+    org:
+      springframework:
+        web: info
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8888

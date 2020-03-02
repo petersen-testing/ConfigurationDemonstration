@@ -1,0 +1,2189 @@
+{
+	"info": {
+		"_postman_id": "db73d590-e7b3-4386-ad39-b412e362845e",
+		"name": "ConfigurationDemonstration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Common Properties",
+			"item": [
+				{
+					"name": "Development",
+					"item": [
+						{
+							"name": "Spring Cloud Config",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common/development",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common",
+										"development"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Properties",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-development.properties",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-development.properties"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yaml",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-development.yml",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-development.yml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "JSON",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-development.json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-development.json"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Local",
+					"item": [
+						{
+							"name": "Spring Cloud Config",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common/local",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common",
+										"local"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Properties",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-local.properties",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-local.properties"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yaml",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-local.yml",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-local.yml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "JSON",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-local.json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-local.json"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "2d18818d-4bd2-41b7-9f66-9bb8a31be67a",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "9eb62f08-89ce-46f7-9a08-458322669668",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Test",
+					"item": [
+						{
+							"name": "Spring Cloud Config",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common/test",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common",
+										"test"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Properties",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-test.properties",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-test.properties"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yaml",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-test.yml",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-test.yml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "JSON",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-test.json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-test.json"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Production",
+					"item": [
+						{
+							"name": "Spring Cloud Config",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common/production",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common",
+										"production"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Properties",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-production.properties",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-production.properties"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Yaml",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-production.yml",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-production.yml"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "JSON",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8888/common-production.json",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8888",
+									"path": [
+										"common-production.json"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "FCO",
+			"item": [
+				{
+					"name": "OAuth",
+					"item": [
+						{
+							"name": "Local",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth/local",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth",
+												"local"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-local.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-local.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-local.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-local.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-local.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-local.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Development",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth/development",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth",
+												"development"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-development.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-development.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-development.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-development.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-development.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-development.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Test",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth",
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-test.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-test.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-test.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-test.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-test.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-test.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Production",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth/production",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth",
+												"production"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-production.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-production.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-production.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-production.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-oauth-production.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-oauth-production.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Demo",
+					"item": [
+						{
+							"name": "Local",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo/local",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo",
+												"local"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-local.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-local.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-local.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-local.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-local.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-local.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Development",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo/development",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo",
+												"development"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-development.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-development.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-development.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-development.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-development.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-development.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Test",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo",
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-test.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-test.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-test.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-test.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-test.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-test.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Production",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo/production",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo",
+												"production"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-production.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-production.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-production.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-production.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-demo-production.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-demo-production.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Application",
+							"item": [
+								{
+									"name": "Refresh Configuration",
+									"request": {
+										"method": "POST",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/actuator/refresh",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"actuator",
+												"refresh"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Get Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Get OReilly Stock Information",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8080/stock/orly",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"stock",
+												"orly"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"event": [
+								{
+									"listen": "prerequest",
+									"script": {
+										"id": "844241a9-981b-4748-a6c5-6ba7291c278b",
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								},
+								{
+									"listen": "test",
+									"script": {
+										"id": "b98860ad-ebfb-4b22-bb4e-8bebd8b3602d",
+										"type": "text/javascript",
+										"exec": [
+											""
+										]
+									}
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Common",
+					"item": [
+						{
+							"name": "Local",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common/local",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common",
+												"local"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-local.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-local.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-local.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-local.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-local.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-local.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Development",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common/development",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common",
+												"development"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-development.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-development.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-development.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-development.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-development.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-development.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Test",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common",
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-test.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-test.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-test.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-test.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-test.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-test.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Production",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common/production",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common",
+												"production"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-production.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-production.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-production.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-production.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-common-production.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-common-production.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Shop Referral",
+					"item": [
+						{
+							"name": "Local",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral/local",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral",
+												"local"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-local.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-local.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-local.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-local.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-local.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-local.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Development",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral/development",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral",
+												"development"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-development.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-development.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-development.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-development.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-development.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-development.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Test",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral",
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-test.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-test.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-test.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-test.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-test.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-test.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Production",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral/production",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral",
+												"production"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-production.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-production.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-production.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-production.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/fco-shopreferral-production.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"fco-shopreferral-production.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "OST",
+			"item": [
+				{
+					"name": "OAuth",
+					"item": [
+						{
+							"name": "Local",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth/local",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth",
+												"local"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-local.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-local.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-local.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-local.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-local.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-local.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Development",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth/development",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth",
+												"development"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-development.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-development.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-development.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-development.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-development.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-development.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Test",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth/test",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth",
+												"test"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-test.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-test.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-test.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-test.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-test.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-test.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						},
+						{
+							"name": "Production",
+							"item": [
+								{
+									"name": "Spring Cloud Config",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth/production",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth",
+												"production"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "JSON",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-production.json",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-production.json"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Yaml",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-production.yml",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-production.yml"
+											]
+										}
+									},
+									"response": []
+								},
+								{
+									"name": "Properties",
+									"request": {
+										"method": "GET",
+										"header": [],
+										"url": {
+											"raw": "http://localhost:8888/ost-oauth-production.properties",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8888",
+											"path": [
+												"ost-oauth-production.properties"
+											]
+										}
+									},
+									"response": []
+								}
+							],
+							"protocolProfileBehavior": {},
+							"_postman_isSubFolder": true
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
